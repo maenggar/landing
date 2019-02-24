@@ -1,0 +1,117 @@
+.bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
+  content: none;
+}
+.bc-icons-2 .breadcrumb-item.active {
+  color: transparent;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.nav-link {
+  color: white;
+}
+.card-img-top {
+  padding: 43px;
+}
+
+.heading-about {
+  margin-top: 40px;
+}
+.press {
+  height: 650px;
+  margin-bottom: -125px;
+  background-image: url(/img/background/gradient1.jpg);
+  clip-path: polygon(0 10vh, 100% 0, 100% 95vh, 0 110vh);
+}
+
+.card-circle {
+  height: 170px;
+  width: 170px;
+  margin-left: 565px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+.sign {
+  font-family: "La Belle Aurore", cursive;
+}
+.sign-nav {
+  -webkit-text-fill-color: white;
+  font-family: "La Belle Aurore", cursive;
+}
+.heading-press {
+  margin-bottom: 30px;
+  -webkit-text-fill-color: aliceblue;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.137);
+}
+.card-body {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.card-title {
+  -webkit-text-fill-color: rgb(245, 241, 241);
+  animation-name: moveInBottom;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}
+.p-header {
+  animation-name: moveInBottom;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+}
+
+.mb-1 {
+  background-color: transparent;
+}
+
+.pin {
+  margin-left: 1274px;
+  z-index: 5000;
+}
+.navbar-nav {
+  margin-left: 325px;
+}
+.card-circle {
+  -webkit-box-shadow: 5px 6px 7px -2px rgba(135, 135, 135, 0.87);
+  box-shadow: 5px 6px 7px -2px rgba(135, 135, 135, 0.87);
+}
+#header1 {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  z-index: 1;
+}
+footer {
+  clip-path: polygon(0 10vh, 100% 0, 100% 100%, 0 100%);
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.contact {
+  padding-top: -150px;
+}
+.form-contact {
+  height: 500px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li:hover a {
+  transform: scale(1.2);
+  color: aqua;
+}
+
+.hover-footer:hover {
+  transform: scale(1.2);
+  color: aqua;
+  display: inline-block;
+}
