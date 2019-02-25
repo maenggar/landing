@@ -9,6 +9,10 @@
   margin-left: 1275px;
   margin-top: 6px;
 }
+.pin:hover {
+  transform: scale(1.2);
+  color: aqua;
+}
 .card-body {
   height: 150px;
   width: 300px;

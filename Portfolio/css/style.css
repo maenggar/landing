@@ -115,3 +115,8 @@ ul li:hover a {
   color: aqua;
   display: inline-block;
 }
+
+.pinx:hover {
+  transform: scale(1.2);
+  color: aqua;
+}
